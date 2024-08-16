@@ -1,0 +1,79 @@
+{
+    "ticktes": [
+        {
+            "id": 1,
+            "title": "Free Ticket" ,
+            "desc": "This is a ticket description. This is a free ticket. This ticket is uncategorised.",
+            "location": "KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India",
+            "additionalDetails": "This is additional venue details.", 
+            "date": "Available Till: 31st Aug 2034, 06:00 PM IST",
+            "tag": "FREE"
+        },
+        {
+            "id": 2,
+            "title": "Paid Ticket" ,
+            "desc": "This is a ticket description. This is a paid ticket. This ticket is uncategorised.",
+            "location": "KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India",
+            "additionalDetails": "This is additional venue details.", 
+            "date": "Available Till: 31st Aug 2034, 06:00 PM IST",
+            "tag": "₹1,000"
+        },
+        {
+            "id": 3,
+            "title": "Donation Ticket" ,
+            "desc": "This is a ticket description. This is a free ticket. This ticket is uncategorised.",
+            "location": "KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India",
+            "additionalDetails": "This is additional venue details.", 
+            "date": "Available Till: 31st Aug 2034, 06:00 PM IST",
+            "tag": "Min ₹10 - Max ₹1,000"
+        },
+        {
+            "id": 4,
+            "title": "Ticket With Coupon" ,
+            "desc": "This is a ticket description. This is a paid ticket. This ticket is uncategorised. This ticket also has a coupon. Buy minimum - 1 and maximum - 1000000 and avail 10% off.",
+            "location": "KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India",
+            "additionalDetails": "This is additional venue details.", 
+            "date": "Available Till: 31st Aug 2034, 06:00 PM IST",
+            "tag": "₹1,000"
+        }
+
+    ],
+    "Category1_Ticket": [
+        {
+            "id": 1,
+            "title": "Free Ticket in Category1" ,
+            "desc": "This is a ticket description. This is a free ticket. This ticket is categorized.",
+            "additionalDetails": "This is additional venue details.", 
+            "date": "Available Till: 31st Aug 2034, 06:00 PM IST",
+            "tag": "FREE"
+        },
+        {
+            "id": 2,
+            "title": "Paid Ticket in Category1" ,
+            "desc": "This is a ticket description. This is a paid ticket. This ticket is categorised.",
+            "location": "KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India",
+            "additionalDetails": "This is additional venue details.", 
+            "date": "Available Till: 31st Aug 2034, 06:00 PM IST",
+            "tag": "₹1,000"
+        }
+    ],
+    "Category2_Ticket": [
+        {
+            "id": 1,
+            "title": "Free Ticket in Category2" ,
+            "desc": "This is a ticket description. This is a free ticket. This ticket is categorized.",
+            "additionalDetails": "This is additional venue details.", 
+            "date": "Available Till: 31st Aug 2034, 06:00 PM IST",
+            "tag": "FREE"
+        },
+        {
+            "id": 2,
+            "title": "Paid Ticket in Category2" ,
+            "desc": "This is a ticket description. This is a paid ticket. This ticket is categorised.",
+            "location": "KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India",
+            "additionalDetails": "This is additional venue details.", 
+            "date": "Available Till: 31st Aug 2034, 06:00 PM IST",
+            "tag": "₹1,000"
+        }
+    ]
+}
