@@ -5,16 +5,21 @@ import { MdFacebook } from "react-icons/md";
 import { FaAmazon } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 
+import loginImg from "../../assets/images/login_logo.svg"
+import topMiddle from "../../assets/images/Top_middle.svg"
+import topLeft from "../../assets/images/Top_left.svg"
+import bottomLeft from "../../assets/images/Bottom_left_most.svg"
+
 const Login = () => {
   return (
     <div className="flex justify-center items-center bg-[#FFDBA6]">
-      <div className="w-[300px]" style={{ backgroundRepeat: "no-repeat", backgroundImage: `url("src/assets/images/login_logo.svg")`, height: "600px", width: "700px"}}>
+      <div className="w-[300px]" style={{ backgroundRepeat: "no-repeat", backgroundImage: `url("${loginImg}")`, height: "600px", width: "700px"}}>
       </div>
-      <div className="absolute top-0 " style={{ backgroundRepeat: "no-repeat", backgroundImage: `url("src/assets/images/Top_middle.svg")`, height: "200px", width: "700px"}}>
+      <div className="absolute top-0 " style={{ backgroundRepeat: "no-repeat", backgroundImage: `url("${topMiddle}")`, height: "200px", width: "700px"}}>
     </div>
-    <div className="absolute top-0 left-0" style={{ backgroundRepeat: "no-repeat", backgroundImage: `url("src/assets/images/Top_left.svg")`, height: "200px", width: "700px"}}>
+    <div className="absolute top-0 left-0" style={{ backgroundRepeat: "no-repeat", backgroundImage: `url("${topLeft}")`, height: "200px", width: "700px"}}>
     </div>
-    <div className="absolute bottom-0 left-0" style={{ backgroundRepeat: "no-repeat", backgroundImage: `url("src/assets/images/Bottom_left_most.svg")`, height: "200px", width: "700px"}}>
+    <div className="absolute bottom-0 left-0" style={{ backgroundRepeat: "no-repeat", backgroundImage: `url("${bottomLeft}")`, height: "200px", width: "700px"}}>
     </div>
       <div className="flex justify-center rounded-lg items-center bg-white h-[520px]">
       <div className="w-[400px] justify-center items-center p-10 border "> 
